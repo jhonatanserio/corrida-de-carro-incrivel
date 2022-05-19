@@ -69,3 +69,14 @@ canvas {
   transition-duration: 0.4s;
   outline: none;
 }
+.resetButton{
+  width: 60px;
+  height: 60px;
+background-image:url("./assets/reset.png") ;
+background-size: cover;
+border-radius: 30px;
+display:inline-block;
+cursor: pointer;
+transition-duration: 0.4s;
+outline:none
+}
