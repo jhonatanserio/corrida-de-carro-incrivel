@@ -5,8 +5,8 @@ class Player {
     this.positionX = 0;
     this.positionY = 0;
     this.rank = 0;//SABER QUARDA QUEM FICO EM PRIMERO OU EM SEGUNDO
-    this.fuel = 185;//PRA SABER SE TU TEM COMBUSTIVEL
-    this.life = 185;//A VIDA DO SEU CARRO
+    this.fuel = 92;//PRA SABER SE TU TEM COMBUSTIVEL
+    this.life = 92;//A VIDA DO SEU CARRO
     this.score = 0;//PONTUAÇÃO QUE TU FEZ
   }
 
@@ -56,7 +56,8 @@ class Player {
       positionX: this.positionX,
       positionY: this.positionY,
       rank: this.rank,
-      score: this.score
+      score: this.score,
+      life: this.life
     });
   }
 
